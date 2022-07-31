@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DrugStrore.Controllers
 {
-    internal class DruggistController
+    public class DruggistController
     {
     }
 }

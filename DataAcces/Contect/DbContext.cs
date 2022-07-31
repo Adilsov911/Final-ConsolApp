@@ -11,8 +11,17 @@ namespace DataAcces.Contect
     {
         static DbContext()
         {
-            Druggis = new List<Drug>()
+            Druggis = new List<Drug>();
+            Druggists = new List<Druggist>();
+            Drugstores = new List<DrugStore>();
+            Owners = new List<Owner>();
+
         }
+        public static List<Drug> Druggis { get; set; }
+        public static List<Druggist> Druggists { get; set; }
+        public static List<DrugStore> Drugstores { get; set; }
+        public static List<Owner> Owners { get; set; }
+
     }
 
     

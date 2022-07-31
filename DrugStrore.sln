@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrugStrore", "DrugStrore\DrugStrore.csproj", "{2C6DAEF6-395E-4486-B579-026A1984518E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrugStrore", "DrugStrore\DrugStrore.csproj", "{2C6DAEF6-395E-4486-B579-026A1984518E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{27C68D9E-AD55-42FF-B228-9642A40C3004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAcces", "DataAcces\DataAcces.csproj", "{29EDAE72-EB67-4078-A411-F6332DED681D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2C6DAEF6-395E-4486-B579-026A1984518E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C6DAEF6-395E-4486-B579-026A1984518E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C6DAEF6-395E-4486-B579-026A1984518E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C68D9E-AD55-42FF-B228-9642A40C3004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C68D9E-AD55-42FF-B228-9642A40C3004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C68D9E-AD55-42FF-B228-9642A40C3004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C68D9E-AD55-42FF-B228-9642A40C3004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29EDAE72-EB67-4078-A411-F6332DED681D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EDAE72-EB67-4078-A411-F6332DED681D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EDAE72-EB67-4078-A411-F6332DED681D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EDAE72-EB67-4078-A411-F6332DED681D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

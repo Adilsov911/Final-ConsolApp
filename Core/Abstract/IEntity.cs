@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Abstract
 {
-    internal interface Interface1
+    public interface IEntity
     {
     }
 }
