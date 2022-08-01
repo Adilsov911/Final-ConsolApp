@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "DataAcces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAcces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAcces.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
+    "DataAcces/1.0.0": {
+      "type": "project",
+      "path": "../DataAcces/DataAcces.csproj",
+      "msbuildProject": "../DataAcces/DataAcces.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Core >= 1.0.0",
+      "DataAcces >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\adils\\.nuget\\packages\\": {}
@@ -13,9 +51,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\DrugStrore.csproj",
-      "projectName": "DrugStrore",
-      "projectPath": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\DrugStrore.csproj",
+      "projectUniqueName": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\Menage.csproj",
+      "projectName": "Menage",
+      "projectPath": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\Menage.csproj",
       "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\obj\\",
       "projectStyle": "PackageReference",
@@ -33,7 +71,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\adils\\source\\repos\\DrugStrore\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\adils\\source\\repos\\DrugStrore\\Core\\Core.csproj"
+            },
+            "C:\\Users\\adils\\source\\repos\\DrugStrore\\DataAcces\\DataAcces.csproj": {
+              "projectPath": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DataAcces\\DataAcces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

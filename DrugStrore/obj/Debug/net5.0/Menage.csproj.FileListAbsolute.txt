@@ -1,0 +1,5 @@
+C:\Users\adils\source\repos\DrugStrore\DrugStrore\obj\Debug\net5.0\Menage.csproj.AssemblyReference.cache
+C:\Users\adils\source\repos\DrugStrore\DrugStrore\obj\Debug\net5.0\Menage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adils\source\repos\DrugStrore\DrugStrore\obj\Debug\net5.0\Menage.AssemblyInfoInputs.cache
+C:\Users\adils\source\repos\DrugStrore\DrugStrore\obj\Debug\net5.0\Menage.AssemblyInfo.cs
+C:\Users\adils\source\repos\DrugStrore\DrugStrore\obj\Debug\net5.0\Menage.csproj.CoreCompileInputs.cache

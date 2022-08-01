@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\DrugStrore.csproj": {}
+    "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\Menage.csproj": {}
   },
   "projects": {
     "C:\\Users\\adils\\source\\repos\\DrugStrore\\Core\\Core.csproj": {
@@ -116,12 +116,12 @@
         }
       }
     },
-    "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\DrugStrore.csproj": {
+    "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\Menage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\DrugStrore.csproj",
-        "projectName": "DrugStrore",
-        "projectPath": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\DrugStrore.csproj",
+        "projectUniqueName": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\Menage.csproj",
+        "projectName": "Menage",
+        "projectPath": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\Menage.csproj",
         "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\adils\\source\\repos\\DrugStrore\\DrugStrore\\obj\\",
         "projectStyle": "PackageReference",
